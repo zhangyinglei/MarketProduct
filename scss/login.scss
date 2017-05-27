@@ -1,0 +1,88 @@
+
+.page{
+     display: flex;
+     flex-direction: column;
+	.header{
+		height:45px;
+		background-color: #a90506;
+		h2{
+			font-size: 17px;
+			color: #fff;
+			text-align: center;
+			line-height: 45px;
+			font-weight: normal;
+		}
+	}
+	.content{
+		width:100%;
+		flex:1;
+		overflow: hidden;
+		background-color: #f3eff0;
+		.con-text{
+			font-size: 0.17rem;
+			margin-top:0.2rem; 
+			padding:0 0.12rem;
+           input{
+           	margin-top:0.1rem; 
+           	border-radius: 5px;
+           	padding:0 0.1rem;
+           	width:2.76rem;
+           	height: 0.44rem;
+           	outline:none;
+           	border:1px solid #fff;
+           }
+		}
+		.con-laber{
+			font-size: 0.14rem;
+			height:1.13rem; 
+			div{
+				padding-left: 0.2rem;
+				height: 0.4rem;
+				line-height: 0.4rem;
+			input{
+					float: left;
+				    margin-top:.13rem; 
+					width: 20px;
+					height: 20px;
+
+				}
+			label{
+				span{
+					float: left;
+					height: 0.4rem;
+				    line-height: 0.45rem;
+					padding-left:0.15rem;
+				}
+			}
+			a{
+				height: 0.4rem;
+				line-height: 0.45rem;
+				padding-left:0.15rem;
+				color:red;
+				}
+			}
+		}
+		.con-btn{
+			div{
+				margin: 10px 0 0 10px;
+				border-radius: 7px; 
+				text-align: center;
+				font-size: 0.17rem;
+				width: 2.96rem;
+				height: 0.44rem;
+				color: #fff;
+				line-height: 0.44rem;
+
+
+			}
+			.conlogin{
+				background-color: #c60808;
+				box-shadow: 1px 1px 0 2px #c60808;
+			}
+			.conregis{
+				background-color: #3e3e3e;
+				box-shadow: 1px 1px 0 2px #3e3e3e;
+			}
+		}
+	}
+}

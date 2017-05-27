@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" 
+           content="width=device-width, 
+	               initial-scale=1.0,
+	               minimum-scale=1.0, 
+	               maximum-scale=1.0, 
+	               user-scalable=no"> 
+	<title>登录页面</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="page">
+	     <div class="header">
+            <h2>开心瑶瑶用户登录</h2>
+	     </div>
+	     <div class="content">
+             <div class="con-text">
+                 <input id="uname" type="text" placeholder="请输入账户">
+                 <input id="pwd" type="password" placeholder="请输入密码">
+             </div>
+             <div class="con-laber">
+                 <div>
+                     <input id="cview" name="cview" type="checkbox"><label for="cview"><span>显示密码</span></label><a href="javascript:;">忘记密码？</a>
+                 </div>
+                 <div>
+                    <input id="rember" name="rember" type="checkbox"><label for="rember"><span>记住密码自动登录</span></label>
+                 </div>
+                                      
+             </div>
+             <div class="con-btn">
+                 <div class="conlogin">登录</div>
+                 <div class="conregis">注册</div>
+             </div>
+	     </div>
+	    
+    </div>
+    <script data-main="js/js/login" src="require.js" defer async="true"></script>
+</body>
+</html>

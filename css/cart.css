@@ -1,0 +1,193 @@
+footer {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background: #3F454F;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+footer ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  align-items: center;
+}
+
+footer ul li {
+  text-align: center;
+}
+
+footer ul li .iconfont {
+  font-size: 20px;
+  color: white;
+}
+
+footer ul li p {
+  font-size: 14px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  height: 45px;
+  background-color: #a90506;
+  text-align: center;
+  line-height: 45px;
+  color: white;
+}
+
+.header .head-select {
+  display: flex;
+}
+
+.header .head-select .left {
+  width: 52px;
+}
+
+.header .head-select .center {
+  flex: 1;
+  font-size: 20px;
+}
+
+.header .head-select .right {
+  width: 52px;
+  height: 25px;
+  border: 1px solid #860102;
+  text-align: center;
+  line-height: 25px;
+  margin: 10px;
+  box-shadow: 0 0 5px #860102;
+  border-radius: 8px;
+  background-color: #c90707;
+}
+
+.header .head-select .right a {
+  font-size: 14px;
+  padding: 10px;
+  color: white;
+}
+
+/******************product***********************/
+.product-item {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 45px;
+  z-index: 3;
+  background-color: #747474;
+}
+
+.product-item li {
+  padding: 13px;
+  padding-left: 5px;
+  color: white;
+  font-size: 16px;
+}
+
+.product-item li .price {
+  color: #9e3134;
+}
+
+/******************product***********************/
+.product {
+  padding-top: 90px;
+  padding-bottom: 50px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.product dl {
+  position: relative;
+  left: 0;
+  top: 0;
+  padding: 12px;
+  overflow: hidden;
+  border-bottom: 1px solid #CCC;
+}
+
+.product dl dt {
+  margin-right: 10px;
+  float: left;
+  width: 88px;
+  height: 88px;
+}
+
+.product dl dt img {
+  width: 100%;
+  height: 100%;
+}
+
+.product dl dd {
+  width: 50vw;
+  float: left;
+}
+
+.product dl dd .price span {
+  color: #9e3134;
+}
+
+.product dl dd .number .increase {
+  width: 32px;
+  height: 21px;
+  background-color: #767676;
+  border-radius: 4px;
+  line-height: 15px;
+  outline: none;
+  font-size: 10px;
+  color: white;
+}
+
+.product dl dd .number .txt {
+  width: 32px;
+  height: 18px;
+  border-radius: 5px;
+  box-shadow: 0 0 2px black inset;
+  outline: none;
+  padding: 2px;
+}
+
+.product dl dd .number .decrease {
+  width: 32px;
+  height: 21px;
+  background-color: #767676;
+  border-radius: 4px;
+  line-height: 15px;
+  outline: none;
+  font-size: 10px;
+  color: white;
+}
+
+.product dl a {
+  position: absolute;
+  right: 15px;
+  top: 12px;
+  font-size: 18px;
+  color: #333333;
+}
+
+/**********************footer************************/

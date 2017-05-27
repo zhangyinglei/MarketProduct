@@ -1,0 +1,93 @@
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+.page .header {
+  height: 45px;
+  background-color: #a90506;
+}
+
+.page .header h2 {
+  font-size: 17px;
+  color: #fff;
+  text-align: center;
+  line-height: 45px;
+  font-weight: normal;
+}
+
+.page .content {
+  width: 100%;
+  flex: 1;
+  overflow: hidden;
+  background-color: #f3eff0;
+}
+
+.page .content .con-text {
+  font-size: 0.17rem;
+  margin-top: 0.2rem;
+  padding: 0 0.12rem;
+}
+
+.page .content .con-text input {
+  margin-top: 0.1rem;
+  border-radius: 5px;
+  padding: 0 0.1rem;
+  width: 2.76rem;
+  height: 0.44rem;
+  outline: none;
+  border: 1px solid #fff;
+}
+
+.page .content .con-laber {
+  font-size: 0.14rem;
+  height: 1.13rem;
+}
+
+.page .content .con-laber div {
+  padding-left: 0.2rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+}
+
+.page .content .con-laber div input {
+  float: left;
+  margin-top: .13rem;
+  width: 20px;
+  height: 20px;
+}
+
+.page .content .con-laber div label span {
+  float: left;
+  height: 0.4rem;
+  line-height: 0.45rem;
+  padding-left: 0.15rem;
+}
+
+.page .content .con-laber div a {
+  height: 0.4rem;
+  line-height: 0.45rem;
+  padding-left: 0.15rem;
+  color: red;
+}
+
+.page .content .con-btn div {
+  margin: 10px 0 0 10px;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 0.17rem;
+  width: 2.96rem;
+  height: 0.44rem;
+  color: #fff;
+  line-height: 0.44rem;
+}
+
+.page .content .con-btn .conlogin {
+  background-color: #c60808;
+  box-shadow: 1px 1px 0 2px #c60808;
+}
+
+.page .content .con-btn .conregis {
+  background-color: #3e3e3e;
+  box-shadow: 1px 1px 0 2px #3e3e3e;
+}

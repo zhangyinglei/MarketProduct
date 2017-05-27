@@ -1,0 +1,167 @@
+html, body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+input {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+/*++++++++++header+++++++++++*/
+.header {
+  width: 100%;
+  height: 44px;
+  background-color: #a81817;
+  border-top: 1px solid #D12F2D;
+  box-sizing: border-box;
+  font-size: 24px;
+  color: #fff;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.header-list {
+  display: flex;
+  flex-direction: row;
+  line-height: 44px;
+}
+
+.header-btn {
+  width: 72px;
+}
+
+.header-btn a {
+  text-align: center;
+  border: 2px solid #960F0C;
+  border-radius: 10px;
+  color: #fff;
+  padding: 0 15px;
+}
+
+.header-btn a i {
+  font-size: 24px;
+}
+
+.header-title {
+  flex: 1;
+  text-align: center;
+}
+
+/*++++++++++content+++++++++++*/
+.content {
+  height: 100%;
+  padding: 73px 0 50px;
+  box-sizing: border-box;
+  background: #f7f7f7;
+  overflow: hidden;
+}
+
+.content .type {
+  width: 100%;
+  height: 29px;
+  background: #9a9fa5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 16px;
+  position: fixed;
+  z-index: 6;
+  left: 0;
+  top: 44px;
+}
+
+.content .type .iconfont {
+  font-size: 20px;
+}
+
+.content .type .color {
+  color: #fff;
+}
+
+.content .scroll-wrapper {
+  position: absolute;
+  top: 46px;
+  bottom: 50px;
+  width: 100%;
+  left: 0;
+  overflow: hidden;
+}
+
+.content .scroll-wrapper .prodoct {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+
+.content .scroll-wrapper .prodoct li {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.content .scroll-wrapper .prodoct li img {
+  width: 38vw;
+  height: 38vw;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+
+.content .scroll-wrapper .prodoct li p {
+  width: 38vw;
+  padding-top: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.content .scroll-wrapper .prodoct li .p2 {
+  color: red;
+}
+
+/*++++++++++footer+++++++++++*/
+footer {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background: #3F454F;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+footer ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  align-items: center;
+}
+
+footer ul li {
+  text-align: center;
+}
+
+footer ul li .iconfont {
+  font-size: 20px;
+  color: white;
+}
+
+footer ul li p {
+  font-size: 14px;
+}
